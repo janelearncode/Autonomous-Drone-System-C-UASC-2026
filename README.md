@@ -38,3 +38,12 @@ Development & Communication:
 - Python 3
 - MAVProxy
 - pymavlink
+___________________________________________________________________________________________________________________________
+WORKFLOW
+Test autonomous logic without hardware
+Validate MAVLink commands
+Camera input → detection → decision logic
+Generate control commands
+Connect Raspberry Pi to Pixhawk (UART)
+Power system validation (6S → regulated rails)
+FLIGHT TESTING: Manual → assisted → fully autonomous
